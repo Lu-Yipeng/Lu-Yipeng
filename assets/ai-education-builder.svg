@@ -1,0 +1,129 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lu Yipeng AI Education Builder Banner</title>
+  <desc id="desc">Animated GitHub profile banner showing an AI education product builder shipping systems with a compact team.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#07130F"/>
+      <stop offset="0.42" stop-color="#12372E"/>
+      <stop offset="1" stop-color="#1E1B12"/>
+    </linearGradient>
+    <linearGradient id="line" x1="80" y1="190" x2="1120" y2="190" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#6EE7B7" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#6EE7B7"/>
+      <stop offset="0.5" stop-color="#F5C542"/>
+      <stop offset="0.78" stop-color="#38BDF8"/>
+      <stop offset="1" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="pulse" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 204) rotate(90) scale(170 450)">
+      <stop stop-color="#F5C542" stop-opacity="0.34"/>
+      <stop offset="0.48" stop-color="#3B82F6" stop-opacity="0.13"/>
+      <stop offset="1" stop-color="#07130F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.43 0 0 0 0 0.91 0 0 0 0 0.72 0 0 0 0.7 0"/>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse">
+      <path d="M 42 0 L 0 0 0 42" stroke="#E7E0C8" stroke-opacity="0.07" stroke-width="1"/>
+    </pattern>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .node { animation: float 5.5s ease-in-out infinite; }
+      .node:nth-of-type(2) { animation-delay: .4s; }
+      .node:nth-of-type(3) { animation-delay: .8s; }
+      .node:nth-of-type(4) { animation-delay: 1.2s; }
+      .scan { animation: scan 4.8s ease-in-out infinite; }
+      .spark { animation: spark 2.4s ease-in-out infinite; transform-origin: center; }
+      .spark:nth-of-type(odd) { animation-delay: .7s; }
+      .dash { stroke-dasharray: 8 13; animation: dash 12s linear infinite; }
+      .blink { animation: blink 1.2s steps(2, jump-none) infinite; }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-9px); }
+      }
+      @keyframes scan {
+        0% { transform: translateX(-260px); opacity: 0; }
+        16% { opacity: .9; }
+        72% { opacity: .9; }
+        100% { transform: translateX(1180px); opacity: 0; }
+      }
+      @keyframes spark {
+        0%, 100% { opacity: .28; transform: scale(.86); }
+        50% { opacity: 1; transform: scale(1.18); }
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -260; }
+      }
+      @keyframes blink {
+        50% { opacity: 0; }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        .node, .scan, .spark, .dash, .blink { animation: none; }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="420" rx="30" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="30" fill="url(#grid)"/>
+  <rect x="0" y="0" width="1200" height="420" rx="30" fill="url(#pulse)"/>
+
+  <g opacity="0.55">
+    <path class="dash" d="M92 296 C212 214 294 310 400 224 C521 126 610 290 718 190 C830 86 928 250 1118 132" stroke="url(#line)" stroke-width="2.5"/>
+    <path class="dash" d="M84 176 C220 88 325 156 444 126 C568 95 649 124 750 83 C888 27 994 70 1126 48" stroke="#6EE7B7" stroke-opacity="0.22" stroke-width="1.8"/>
+  </g>
+
+  <g class="scan">
+    <rect x="0" y="38" width="160" height="344" fill="#6EE7B7" opacity="0.05"/>
+    <rect x="156" y="38" width="2" height="344" fill="#6EE7B7" opacity="0.6"/>
+  </g>
+
+  <g transform="translate(72 70)">
+    <text class="mono" x="0" y="0" fill="#A7F3D0" font-size="17" letter-spacing="1">BUILDING_NOW</text>
+    <text class="sans" x="0" y="54" fill="#FFF7DA" font-size="54" font-weight="800">AI education, shipped like a startup.</text>
+    <text class="sans" x="2" y="93" fill="#D8E6DB" font-size="22">Backend-first founder building Huoyue.online with matching, IM, live classroom and multi-agent workflows.</text>
+  </g>
+
+  <g transform="translate(86 212)">
+    <rect x="0" y="0" width="204" height="86" rx="18" fill="#0B211B" stroke="#6EE7B7" stroke-opacity="0.35"/>
+    <text class="mono" x="22" y="32" fill="#6EE7B7" font-size="15">TEAM</text>
+    <text class="sans" x="22" y="61" fill="#FFF7DA" font-size="22" font-weight="700">Fudan · HIT · Byte/Tencent</text>
+  </g>
+
+  <g transform="translate(326 212)">
+    <rect x="0" y="0" width="204" height="86" rx="18" fill="#10231B" stroke="#F5C542" stroke-opacity="0.35"/>
+    <text class="mono" x="22" y="32" fill="#F5C542" font-size="15">ROLE</text>
+    <text class="sans" x="22" y="61" fill="#FFF7DA" font-size="22" font-weight="700">Product + Core Dev</text>
+  </g>
+
+  <g transform="translate(566 212)">
+    <rect x="0" y="0" width="204" height="86" rx="18" fill="#101D24" stroke="#38BDF8" stroke-opacity="0.35"/>
+    <text class="mono" x="22" y="32" fill="#38BDF8" font-size="15">STACK</text>
+    <text class="sans" x="22" y="61" fill="#FFF7DA" font-size="22" font-weight="700">Java · Go · React</text>
+  </g>
+
+  <g transform="translate(806 212)">
+    <rect x="0" y="0" width="254" height="86" rx="18" fill="#221E12" stroke="#FB923C" stroke-opacity="0.35"/>
+    <text class="mono" x="22" y="32" fill="#FDBA74" font-size="15">METHOD</text>
+    <text class="sans" x="22" y="61" fill="#FFF7DA" font-size="22" font-weight="700">Vibe coding + TDD</text>
+  </g>
+
+  <g transform="translate(120 338)" filter="url(#softGlow)">
+    <circle class="spark" cx="0" cy="0" r="5" fill="#6EE7B7"/>
+    <circle class="spark" cx="160" cy="-20" r="4" fill="#F5C542"/>
+    <circle class="spark" cx="350" cy="8" r="5" fill="#38BDF8"/>
+    <circle class="spark" cx="620" cy="-12" r="4" fill="#6EE7B7"/>
+    <circle class="spark" cx="900" cy="-28" r="5" fill="#F5C542"/>
+  </g>
+
+  <g transform="translate(855 58)" opacity="0.96">
+    <rect x="0" y="0" width="260" height="108" rx="20" fill="#07130F" fill-opacity="0.62" stroke="#E7E0C8" stroke-opacity="0.16"/>
+    <text class="mono" x="22" y="34" fill="#A7F3D0" font-size="15">$ ship --system</text>
+    <text class="mono" x="22" y="63" fill="#F5C542" font-size="15">matching + im + video</text>
+    <text class="mono" x="22" y="92" fill="#E7E0C8" font-size="15">agents.learning()<tspan class="blink">_</tspan></text>
+  </g>
+</svg>
