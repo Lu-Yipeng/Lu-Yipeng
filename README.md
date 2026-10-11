@@ -13,7 +13,7 @@
   <a href="mailto:yipenglu3@gmail.com">Get in Touch ↗</a>
 </p>
 
-<sub>陆熠鹏 · B.Eng. in Network Engineering, CSUST · Class of 2027</sub>
+<sub>陆熠鹏 · Agent Developer &amp; Product Builder · Exploring AI-native Learning</sub>
 
 </div>
 
