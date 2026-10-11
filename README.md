@@ -28,7 +28,7 @@
 <p><strong><a href="https://ojo.art/">OJO</a></strong> &nbsp; <code>AI Native Engineering Intern</code><br />
 Design Agent 2.0: planning, sub-agent coordination, context management and evaluation-driven iteration.</p>
 
-<p><strong>Kwai</strong> &nbsp; <code>SDET Intern · User Growth</code><br />
+<p><strong>Kwai</strong> &nbsp; <code>Software Engineering Intern · User Growth</code><br />
 Growth campaigns: ranking and reward workflows, complex strategy validation and release quality.</p>
 
 <p><strong>ByteDance</strong> &nbsp; <code>SDET Intern · Volcengine Ark</code><br />
